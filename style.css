@@ -161,19 +161,19 @@ a {
 }
 
 .card-1:hover {
-  background-color: rgba(245,209,235,.9);
+  background-color: rgb(238, 182, 222);
 }
 
 .card-2:hover {
-  background-color: rgba(254, 238, 196,.9);
+  background-color: rgb(233, 211, 154);
 }
 
 .card-3:hover {
-  background-color: rgba(189, 237, 245,.9);
+  background-color: rgb(154, 217, 228);
 }
 
 .card-4:hover {
-  background-color: rgba(245, 211, 189,.9);
+  background-color: rgb(222, 177, 148);
 }
 
 
