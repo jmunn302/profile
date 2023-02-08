@@ -197,7 +197,7 @@ a {
   background-size: contain;
   padding-top: 10%;
   padding-bottom: 10%;
-  margins: auto;
+  margin: auto;
   width: auto;
 }
 
@@ -217,7 +217,7 @@ a {
     height: 40vw;
     margin-top: 2vw;
 
-}
+  }
 }
 
 @media (max-width: 720px) {
