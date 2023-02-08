@@ -33,7 +33,7 @@ a {
 }
 
 .button {
-  background-color: #f3b61d;
+  background-color: #ffc534;
   border: none;
   color: white;
   padding: 3px 20px;
@@ -165,7 +165,7 @@ a {
 }
 
 .card-2:hover {
-  background-color: rgb(237, 219, 171);
+  background-color: rgb(255, 242, 206);
 }
 
 .card-3:hover {
