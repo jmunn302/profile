@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=DM+Serif+Display:ital@0;1&display=swap');
+
+h1, h2, h3, h4 {
+  font-family: 'DM Serif Display', serif;
+  color: #475054;
+}
+
+h1 {
+  font-size: 2.7em;
+  line-height: 2.6em;
+  margin: 0;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+p {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1.2em;
+  line-height: 1.5em;
+}
+
+a {
+  text-decoration: none;
+  color: #1f66c3;
+  line-height: 1.5em;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.button {
+  background-color: #f3b61d;
+  border: none;
+  color: white;
+  padding: 3px 20px;
+  width: auto;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+  transition: .5s ease;
+  box-shadow: 4px 4px 10px rgba(57, 57, 57, 0.1);
+  margin-top: 4vh;
+}
+
+.button-text-1 {
+  display: block;
+  color: white;
+  transition: .5s ease;
+}
+
+.button-text-2 {
+  display: none;
+  color: white;
+  transition: .5s ease;
+}
+
+.button:hover {
+  background-color: #e9872a;
+}
+
+.button:hover .button-text-1 {
+  display: none;
+}
+
+.button:hover .button-text-2 {
+  display: block;
+}
+
+#profile-pic {
+  width: 20vw;
+  height: 20vw;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top;
+  border: solid 1vw #fc8ddc;
+  transition: .5s ease;
+}
+
+#profile-pic:hover {
+  width: 23vw;
+  height: 23vw;
+  border: solid 1vw #c31f84;
+}
+
+.icon {
+  font-size: 2.5em;
+  transition: .5s ease;
+}
+
+.icon:hover {
+  font-size: 3em;
+}
+
+#profile-container {
+  margin: auto;
+}
+
+.list-inline {
+  padding-inline-start: 0;
+  padding-top: 2vh;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 2vw;
+}
+
+.list-inline a {
+  color: #1f66c3;
+  text-align: center;
+}
+
+.list-inline a:hover {
+  color: #039f9d;
+}
+
+.card {
+  background-color: white;
+  margin: 20px auto;
+  width: 55vw;
+  padding-top: 5vh;
+  padding-bottom: 2vh;
+  padding-right: 5vw;
+  padding-left: 5vw;
+  box-shadow: 4px 4px 10px rgb(19, 18, 18);
+  border-radius: 4px;
+}
+
+.card-1, .card-2, .card-3, .card-4 {
+  transition: .5s ease;
+}
+
+.card-1, .card-2, .card-3, .card-4 {
+  transition: .5s ease;
+}
+
+.card-1 {
+  background-color: rgb(245, 209, 235);
+  padding-bottom: 7vh;
+  margin-top: 5vh;
+}
+
+.card-2 {
+  background-color: rgb(254, 238, 196);
+  padding-top: 7%;
+  padding-bottom: 5%;
+}
+
+.card-3 {
+  background-color: rgb(189, 237, 245);
+}
+
+.card-4 {
+  background-color: rgb(245, 211, 189);
+}
+
+.card-1:hover {
+  background-color: rgba(245,209,235,.9);
+}
+
+.card-2:hover {
+  background-color: rgba(254, 238, 196,.9);
+}
+
+.card-3:hover {
+  background-color: rgba(189, 237, 245,.9);
+}
+
+.card-4:hover {
+  background-color: rgba(245, 211, 189,.9);
+}
+
+
+.card-4 a {
+  text-decoration: none;
+  color: #eb5f3f;
+  line-height: 1.5em;
+  font-family: 'DM Sans', sans-serif;
+  margin-bottom: 10vh;
+}
+
+.card-4 a:hover {
+  text-decoration: none;
+  color: #c11c1c;
+  line-height: 1.5em;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.container {
+  background-image: url("/profile/images/bg_trz_m01_cs01_4.jpg");
+  background-size: contain;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  margins: auto;
+  width: auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: auto;
+    margin: auto;
+  }
+
+  .button {
+    margin-top: 0;
+  }
+
+  #profile-pic {
+    width: 40vw;
+    height: 40vw;
+    margin-top: 2vw;
+
+}
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: auto;
+    margin: auto;
+  }
+
+  h1 {
+    font-size: 1.5em;
+    line-height: 1.6em;
+    margin: 0;
+  }
+
+  #profile-pic {
+    width: 40vw;
+    height: 40vw;
+    margin-top: 5vw;
+
+}
+
+.button {
+  margin-top: 0;
+}
+
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: auto;
+    margin: auto;
+
+  }
+
+  h1 {
+    font-size: 1.5em;
+    line-height: 1.6em;
+    margin: 0;
+  }
+
+  h2 {
+    font-size: 1.1em;
+  }
+
+  p {
+    font-family: 'DM Sans', sans-serif;
+    font-size: .95em;
+    line-height: 1.2em;
+  }
+
+  #profile-pic {
+    width: 35vw;
+    height: 35vw;
+    margin-top: 5vw;
+
+}
+  .card {
+    width: 60vw;
+    padding-bottom: 1.7vh;
+}
+
+  .button {
+    margin-top: 0;
+}
+
+}
