@@ -50,11 +50,13 @@ a {
 .button-text-1 {
   display: block;
   color: white;
+  width: 20%;
 }
 
 .button-text-2 {
   display: none;
   color: white;
+  width: 50%;
 }
 
 .button:hover {
