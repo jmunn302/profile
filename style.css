@@ -238,11 +238,11 @@ a {
     height: 40vw;
     margin-top: 5vw;
 
-}
+  }
 
 .button {
   margin-top: 0;
-}
+  }
 
 }
 
@@ -275,14 +275,14 @@ a {
     height: 35vw;
     margin-top: 5vw;
 
-}
+  }
   .card {
     width: 60vw;
     padding-bottom: 1.7vh;
-}
+  }
 
   .button {
     margin-top: 0;
-}
+  }
 
 }
