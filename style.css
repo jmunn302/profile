@@ -40,6 +40,7 @@ a {
   text-align: center;
   display: inline-block;
   font-size: 16px;
+  width: 20%;
   border-radius: 4px;
   transition: width .7s ease-in, .7s ease-in;
   box-shadow: 4px 4px 10px rgba(57, 57, 57, 0.1);
@@ -49,17 +50,16 @@ a {
 .button-text-1 {
   display: block;
   color: white;
-  width: 20%;
 }
 
 .button-text-2 {
   display: none;
   color: white;
-  width: 50%;
 }
 
 .button:hover {
   background-color: #e9872a;
+  width: 50%;
 }
 
 .button:hover .button-text-1 {
