@@ -42,7 +42,7 @@ a {
   font-size: 16px;
   width: 25%;
   border-radius: 4px;
-  transition: width .5s ease-in, .5s ease-in;
+  transition: width .3s ease-in, .3s ease-in;
   box-shadow: 4px 4px 10px rgba(57, 57, 57, 0.1);
   margin-top: 4vh;
 }
